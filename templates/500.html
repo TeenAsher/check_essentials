@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <title>Check Essentials</title>
+</head>
+<body>
+    <div id="header">
+          <div id="inner-header">
+            <p id="head">Check Essentials</p>
+            <p id="line">Headlines. Currency. Weather.</p>
+        </div>
+        <hr />
+    </div>
+    <div class="main-error">
+        <div class="error-container" id="500">
+            <h1>Sorry! 500</h1>
+            <p>Seems like we've got a problem.</p>
+            <p>Don't worry! Just return to the <a href="{{ url_for('home') }}">home page</a>.</p>
+        </div>
+    </div>
+</html>    

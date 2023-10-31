@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Noto+Serif+JP:wght@300&family=Noto+Serif:wght@300&family=Raleway:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+/*  background-image: url(img/stars2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; */
+}
+
+#header {
+    padding-top: 5px;
+    background: #A00;
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#inner-header {
+    color: #FDA;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#head {
+    font-size: 40px;
+}
+
+#line {
+   font-family: 'Raleway';
+   font-size: 20px;
+}
+
+#date {
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+#main {
+    padding: 10px;
+    font-family: 'Noto Serif', serif;
+    width: 72%;
+    float: left;
+}
+
+#headlines form {
+    margin-top: 20px;
+}
+
+#headlines h2 {
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 37px;
+}
+
+#headlines p {
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.radio-div {
+    float: left;
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked+label {
+    font-weight: bold;
+    color: rgb(194, 5, 5);
+    text-decoration: overline;
+}
+
+#myForm label:hover {
+    font-weight: bold;
+    color: rgb(194, 5, 5);
+    text-decoration: overline;
+}
+
+.submit-img {
+    position: relative;
+    bottom: 20px;
+    scale: 0.5;
+    transition: scale 300ms;
+}
+
+.submit-img:hover{
+    scale: 0.7;
+}
+
+#articles {
+    margin-top: 50px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+#articles a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#articles h3 {
+    margin-bottom: 10px;
+    color: rgb(194, 5, 5);
+    text-decoration: underline;
+}
+
+#link-img {
+    scale: 0.5;
+    position: relative;
+    top: 20px;
+    transition: scale 300ms;
+}
+
+#link-img:hover {
+    scale: 0.6;
+}
+
+#side {
+    width: 20%;
+    max-height: 50%;
+    float: left;
+    margin-left: 5%;
+    font-family: 'Noto Serif', serif;
+}
+
+#weather {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10%;
+    background-color: bisque;
+    border-radius: 30px;
+}
+
+#weather h2 {
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 37px;
+}
+
+#weather form {
+    margin-bottom: 20px;
+}
+
+#input-search-city {
+    float: left;
+}
+
+#input-submit-but-1 {
+    max-width: 20px;
+    max-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#but-1 {
+    scale: 0.3;
+    transition: scale 300ms;
+}
+
+#but-1:hover {
+    scale: 0.5;
+}
+
+#search-weather-result {
+    margin-top: 20px;
+}
+
+#search-city {
+    color: rgb(147, 2, 2);
+    background: cornsilk;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    padding-left: 2px;
+    height: 30px;
+}
+
+#currency {
+    margin-bottom: 30px;
+    height: 200px;
+    margin-top: 30px;
+    padding: 10%;
+    background-color: bisque;
+    border-radius: 30px;
+}
+
+#currency form {
+    margin-bottom: 30px;
+}
+
+#currency h2 {
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 37px;
+}
+
+#input-choose-currency {
+    float: left;
+}
+
+#input-submit-currency-but-2{
+    max-width: 20px;
+    max-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+select {
+    color: rgb(147, 2, 2);
+    background: cornsilk;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    height: 30px;
+    line-height: 15px;
+    margin: 2px 6px 16px 0px;
+}
+
+#but-2 {
+    scale: 0.3;
+    transition: scale 300ms;
+}
+
+#but-2:hover {
+    scale: 0.5;
+}
+
+.footer {
+    width: 100%;
+}
+
+.main-error {
+    width: 100%;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    margin-top: 40px;
+}
